@@ -1,6 +1,6 @@
 body,
 html {
-  max-height: 100vh;
+  min-height: 100vh;
 }
 .purple {
   background-color: #320388;
@@ -146,4 +146,38 @@ html {
 
 #footerThree {
   flex-grow: 1;
+}
+
+/* layout 4 */
+
+#layoutFour {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+#headerFour {
+  height: 15vh;
+}
+
+#mainContentFour {
+  height: 85vh;
+  flex-grow: 8;
+  display: flex;
+  flex-direction: row;
+}
+
+#mainContentFour #navFour {
+  flex-grow: 1;
+}
+#mainContentFour #articleFourWhite {
+  flex-grow: 7;
+}
+#mainContentFour #articleFourPurple {
+  flex-grow: 1;
+}
+
+#footerFour {
+  height: 15vh;
 }
