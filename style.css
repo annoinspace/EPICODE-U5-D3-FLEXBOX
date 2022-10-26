@@ -1,0 +1,44 @@
+body,
+html {
+  max-height: 100vh;
+}
+
+#layoutOne {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  min-height: 100vh;
+}
+
+#headerOne {
+  background-color: #111023;
+  display: flex;
+  flex-grow: 1;
+}
+
+#middleSectionOne {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 5;
+}
+
+#articleOneWhite {
+  flex-grow: 7;
+}
+
+#articleOnePurple {
+  background-color: #320388;
+  flex-grow: 2;
+}
+
+#navOne {
+  background-color: #c22177;
+  flex-grow: 2;
+}
+
+#footerOne {
+  background-color: #111023;
+  display: flex;
+  flex-grow: 1;
+  color: white;
+}
