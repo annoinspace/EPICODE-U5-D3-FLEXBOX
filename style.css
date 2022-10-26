@@ -97,3 +97,53 @@ html {
 #footerTwo {
   flex-grow: 1;
 }
+
+/* layout 3 */
+#layoutThree {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  min-height: 100vh;
+}
+
+#navThree {
+  flex-grow: 1;
+}
+
+#mainSectionThree {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 8;
+  min-height: 100vh;
+  color: black;
+}
+
+#headerThree {
+  flex-grow: 1;
+}
+
+#articleSectionThree {
+  flex-grow: 5;
+  display: flex;
+  flex-direction: row;
+}
+#stackedThree {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+  justify-content: space-between;
+}
+#stackedThree #articleOne {
+  flex-grow: 5;
+}
+
+#stackedThree #footer {
+}
+
+#articleSectionThree #articleTwo {
+  flex-grow: 1;
+}
+
+#footerThree {
+  flex-grow: 1;
+}
