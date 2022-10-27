@@ -214,3 +214,24 @@ html {
     flex-grow: 1;
   }
 }
+
+/* extra layout 1 */
+.green {
+  background-color: lightseagreen;
+  font-weight: 900;
+  color: white;
+  border-radius: 2px;
+  padding: 1vw;
+}
+
+#verticalGridExtra {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
